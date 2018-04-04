@@ -1,4 +1,4 @@
-# disco-data-pkg
+# City of Lincoln Release Candidate
 
 ## options
 ```
