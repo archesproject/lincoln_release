@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/63c497c0-6bc0-4073-8cf0-f4568e902262">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/9685c26f-9522-476b-ae6b-1f641a432d78">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/63c497c0-6bc0-4073-8cf0-f4568e902262"/>
+        <dcterms:title xml:lang="en-US">{"id": "c37009cc-b049-4ee9-9b90-4f4bb506bb6a", "value": "Lincoln Map Reference Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/10b97b45-dc40-4eec-a79e-c7b8eea7ede0"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en-US">{"id": "5a4d4bd1-1ae8-4ed7-a091-d11e19342b73", "value": "National Grid Reference"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/10b97b45-dc40-4eec-a79e-c7b8eea7ede0">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/9685c26f-9522-476b-ae6b-1f641a432d78"/>
+    <skos:prefLabel xml:lang="en-US">{"id": "a9124ea4-3c51-42b7-958a-9af65da1a9d3", "value": "Map Sheet Name"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

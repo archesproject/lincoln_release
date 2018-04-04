@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/c6b0c456-4bad-468f-9a46-aa162057187c">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/b67a3746-e07a-4c20-bf99-ec68fbbda189">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/c6b0c456-4bad-468f-9a46-aa162057187c"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "ddf38dd4-b207-43e7-849c-b81ace25d786", "value": "Unknown"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/9bbf8fe0-deff-45e6-84c7-c30de37fcde6">
+        <skos:prefLabel xml:lang="en-US">{"id": "9a460c1b-5529-4880-9cc0-00f6a1590852", "value": "Accurate to 100 meters"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/c6b0c456-4bad-468f-9a46-aa162057187c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/3e37946b-5cc1-4620-87b9-311b22cd6ddc">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/c6b0c456-4bad-468f-9a46-aa162057187c"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "f6e3c32f-e942-4f09-86f2-4d7a7512eacf", "value": "Accurate to 1000 meters"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/6c1a3bf3-db23-4936-ab29-369f9c39b0ad">
+        <skos:prefLabel xml:lang="en-US">{"id": "c9859a3e-e907-48cf-b565-fb73e6c1dcde", "value": "Accurate to 10 meters"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/c6b0c456-4bad-468f-9a46-aa162057187c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/2745f7af-99ed-4851-9282-f4e6fbad7352">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/c6b0c456-4bad-468f-9a46-aa162057187c"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "c9a30836-eda6-4d50-b121-29af6ac79253", "value": "Accurate to 1 meter"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en-US">{"id": "3ef279c8-6222-44a8-9288-ff8fb98c66e3", "value": "Lincoln Spatial Precision Qualifier"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

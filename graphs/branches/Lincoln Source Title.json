@@ -1,0 +1,144 @@
+{
+    "graph": [
+        {
+            "author": " Phil", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "309dffbc-30fb-11e8-a9b2-0242ac120005", 
+                    "description": "Describes the title of a source including sub-titles.", 
+                    "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Lincoln Source Title", 
+                    "nodegroup_id": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Describes the title of a source including sub-titles.", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "edgeid": "b010db66-30fb-11e8-a9b2-0242ac120005", 
+                    "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "b010d8a0-30fb-11e8-a9b2-0242ac120005"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "b010d8a0-30fb-11e8-a9b2-0242ac120005", 
+                    "edgeid": "fde856e8-30fb-11e8-a9b2-0242ac120005", 
+                    "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "fde8542c-30fb-11e8-a9b2-0242ac120005"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+            "iconclass": "fa fa-tag", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Lincoln Source Title", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "63334a16-dd46-4649-95aa-df12bc74aead"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Title Type", 
+                    "nodegroup_id": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "nodeid": "fde8542c-30fb-11e8-a9b2-0242ac120005", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Title", 
+                    "nodegroup_id": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "nodeid": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E35_Title", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Source Title", 
+                    "nodegroup_id": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                    "nodeid": "b010d8a0-30fb-11e8-a9b2-0242ac120005", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E35_Title", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "309d6426-30fb-11e8-a9b2-0242ac120005", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Title", 
+                "nodegroup_id": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                "nodeid": "309d5fee-30fb-11e8-a9b2-0242ac120005", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E35_Title"
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 6.2.1) 6.2.1 20160822, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.4.0-1049-aws"
+    }
+}

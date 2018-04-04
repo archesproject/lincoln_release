@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/89e4d744-e070-4199-b674-309c233e799b">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/50c93185-edb6-44c0-8869-e82c389a279c">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/efc308ee-e235-4ec6-903f-47c536a935ba"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/43c6af2f-80a1-4fc7-a1fa-3fb43eb3474b"/>
+        <dcterms:title xml:lang="en">{"id": "3f46b47b-a9ce-4b60-861e-a0468916d51a", "value": "Lincoln_Subjects"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/89e4d744-e070-4199-b674-309c233e799b"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "a1ad43ec-f992-4985-b0d5-44633f04d8b0", "value": "Architecture"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/43c6af2f-80a1-4fc7-a1fa-3fb43eb3474b">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/50c93185-edb6-44c0-8869-e82c389a279c"/>
+    <skos:prefLabel xml:lang="en">{"id": "01543f67-ac68-4e45-aa21-6befebf8590f", "value": "History"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/efc308ee-e235-4ec6-903f-47c536a935ba">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/50c93185-edb6-44c0-8869-e82c389a279c"/>
+    <skos:prefLabel xml:lang="en">{"id": "04058a71-2a86-4d77-a823-0d737944c24b", "value": "Archaeology"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

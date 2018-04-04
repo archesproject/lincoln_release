@@ -1,0 +1,120 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "ba801a1b-9221-11e7-b43c-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "ba801a19-9221-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "HER Area Type", 
+                    "nodegroup_id": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                    "edgeid": "e207bc78-31ac-11e8-a9b2-0242ac120005", 
+                    "graph_id": "ba801a19-9221-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned", 
+                    "rangenode_id": "e207b9b2-31ac-11e8-a9b2-0242ac120005"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "ba801a19-9221-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-area-chart", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Area Type", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "ba801a19-9221-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Area Type Assignment", 
+                    "nodegroup_id": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                    "nodeid": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "6a751ac1-4be1-4467-aef2-eee2af4e6e9f"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ba801a19-9221-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Area Type", 
+                    "nodegroup_id": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                    "nodeid": "e207b9b2-31ac-11e8-a9b2-0242ac120005", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "ba801a19-9221-11e7-b43c-021893e306d8", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Area Type Assignment", 
+                "nodegroup_id": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                "nodeid": "ba801a18-9221-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"
+            }, 
+            "subtitle": "Used to record the type of an Area asset.", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 6.2.1) 6.2.1 20160822, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.4.0-1049-aws"
+    }
+}

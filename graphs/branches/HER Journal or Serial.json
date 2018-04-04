@@ -1,0 +1,118 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "2544b67f-aed0-11e7-9f72-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "2544b67c-aed0-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "HER Journal or Serial", 
+                    "nodegroup_id": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                    "edgeid": "43ddb198-aed1-11e7-9f72-021893e306d8", 
+                    "graph_id": "2544b67c-aed0-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
+                    "rangenode_id": "43ddb197-aed1-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "2544b67c-aed0-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-book", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Journal or Serial", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "2544b67c-aed0-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Journal or Serial", 
+                    "nodegroup_id": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                    "nodeid": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "2544b67c-aed0-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Journal or Serial Volume Assignment", 
+                    "nodegroup_id": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                    "nodeid": "43ddb197-aed1-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "2544b67c-aed0-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Journal or Serial", 
+                "nodegroup_id": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                "nodeid": "2544b67d-aed0-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+            }, 
+            "subtitle": "Allows an article to be linked to a journal or series", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 6.2.1) 6.2.1 20160822, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.4.0-1049-aws"
+    }
+}

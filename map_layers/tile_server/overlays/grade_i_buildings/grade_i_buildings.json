@@ -1,0 +1,49 @@
+{
+	"type": "vector",
+	"name": "Grade I Buildings",
+	"layers": [{
+		"id": "grade_i_buildings",
+		"type": "circle",
+      	"minzoom": 11,
+		"maxzoom": 21,
+		"source": "grade_i_buildings",
+		"source-layer": "grade_i_buildings",
+		"layout": {
+			"visibility": "visible"
+		},
+		"paint": {
+			"circle-radius": {
+	            "stops": [
+	                [11, 2],
+	                [15, 8],
+	                [21, 50]
+	            ]
+	        }
+			,
+			"circle-color": "rgba(58, 171, 209,0.25)",
+			"circle-stroke-color": "rgb(58, 171, 209)",
+          	"circle-stroke-width": 1
+		}
+	}],
+	"config": {
+		"provider": {
+			"class": "TileStache.Goodies.VecTiles:Provider",
+			"kwargs": {
+				"dbinfo": {
+					"host": "localhost",
+					"user": "postgres",
+					"password": "postgis",
+					"database": "her_lincoln",
+					"port": "5432"
+				},
+				"simplify": 0.5,
+				"queries": [
+					"select gid as __id__, geom as __geometry__ from grade_i_buildings"
+				]
+			}
+		},
+		"allowed origin": "*",
+		"compress": true,
+		"write cache": false
+	}
+}

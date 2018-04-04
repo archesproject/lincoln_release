@@ -1,0 +1,118 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "f74f6c1e-30ff-11e8-911f-0242ac120005", 
+                    "description": "Records the creators of a resource exactly as they appear in the source, eg. 'Smith, N., Jones, P et al'", 
+                    "graph_id": "f74f64e4-30ff-11e8-911f-0242ac120005", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Statement of Responsibility", 
+                    "nodegroup_id": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Records the creators of a resource exactly as they appear in the source, eg. 'Smith, N., Jones, P et al'", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                    "edgeid": "f74f80a0-30ff-11e8-911f-0242ac120005", 
+                    "graph_id": "f74f64e4-30ff-11e8-911f-0242ac120005", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by", 
+                    "rangenode_id": "f74f6e62-30ff-11e8-911f-0242ac120005"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "f74f64e4-30ff-11e8-911f-0242ac120005", 
+            "iconclass": "fa fa-chain", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Statement of Responsibility", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "f74f64e4-30ff-11e8-911f-0242ac120005", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Statement of Responsibility", 
+                    "nodegroup_id": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                    "nodeid": "f74f6e62-30ff-11e8-911f-0242ac120005", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "f74f64e4-30ff-11e8-911f-0242ac120005", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Creation Event", 
+                    "nodegroup_id": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                    "nodeid": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "f74f64e4-30ff-11e8-911f-0242ac120005", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Creation Event", 
+                "nodegroup_id": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                "nodeid": "f74f678c-30ff-11e8-911f-0242ac120005", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation"
+            }, 
+            "subtitle": "Use to record the creators/authors of an information resource exactly as they appear in the source. For more detailed recording of individual authors use the Authorship branches.", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 6.2.1) 6.2.1 20160822, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.4.0-1049-aws"
+    }
+}

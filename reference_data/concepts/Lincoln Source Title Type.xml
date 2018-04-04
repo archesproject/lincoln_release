@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/9736d6a6-4e50-4151-a105-8b348a70de7a">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/30747573-1e1e-4c45-921e-6d721ff3c1af">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/01f907ea-1820-416e-9625-27e338823a61"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/9736d6a6-4e50-4151-a105-8b348a70de7a"/>
+        <dcterms:title xml:lang="en-US">{"id": "70812ee2-04a9-4d6f-aa88-f9dc3a0a7b5f", "value": "Lincoln Source Title Type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en-US">{"id": "463da0ae-a7dd-4833-b843-373b20af1b2b", "value": "Primary"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/01f907ea-1820-416e-9625-27e338823a61">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/30747573-1e1e-4c45-921e-6d721ff3c1af"/>
+    <skos:prefLabel xml:lang="en-US">{"id": "1e391c47-b99a-4801-8d6c-8bc018d2ae77", "value": "Alternative"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/ca4f491e-3305-4e0a-8347-af74bdd274f8">
+    <dcterms:description xml:lang="en">{"id": "b11d9293-4a33-4e24-ba5f-debab37e4790", "value": "Describes the type of title for a bibliographic or archive source"}</dcterms:description>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/c276d40e-e150-468c-9905-0ba483f961d0">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/ca4f491e-3305-4e0a-8347-af74bdd274f8"/>
+        <skos:prefLabel xml:lang="en">{"id": "2181982f-f107-4406-98e0-dabef42756af", "value": "Main title"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/6db0e0ea-d87f-4795-9aea-526d9f63a8f3">
+        <skos:prefLabel xml:lang="en">{"id": "215453b6-046b-4d23-9c3d-358a966a4b02", "value": "Sub-title"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/ca4f491e-3305-4e0a-8347-af74bdd274f8"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "d7fc3a98-2e33-48e9-b459-52928ad3f925", "value": "Lincoln_Title_Type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

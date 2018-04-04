@@ -1,0 +1,470 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "1aeb6867-8cc1-11e7-b43c-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "Capture the measurements associated to this resource.", 
+                    "is_editable": true, 
+                    "name": "HER Dimensions", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "1aeb6867-8cc1-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Measurement Value", 
+                        "max": "", 
+                        "min": "", 
+                        "placeholder": "Enter value", 
+                        "precision": "", 
+                        "prefix": "", 
+                        "step": "", 
+                        "suffix": "", 
+                        "width": "100%"
+                    }, 
+                    "id": "1aeb686e-8cc1-11e7-b43c-021893e306d8", 
+                    "label": "Measurement Value", 
+                    "node_id": "1aeb6869-8cc1-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                }, 
+                {
+                    "card_id": "1aeb6867-8cc1-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Measurement Type", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5d6c4725-747c-4914-a254-5d289167c9a4", 
+                                "id": "32654d56-6380-40c6-a01a-274fb5c6a87c", 
+                                "sortorder": "", 
+                                "text": "Measuring"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "eb16cf72-e9d3-4ef5-b6ad-eb138ef5e09e", 
+                                "id": "030ef7ec-9e0d-4f06-9bb4-69487b1901ad", 
+                                "sortorder": "", 
+                                "text": "Volume"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "1e1b1c63-7cf3-4ddd-b665-cc7f87f6b922", 
+                                "id": "4a09ff8f-8650-41ed-ae11-594ab14e42f9", 
+                                "sortorder": "", 
+                                "text": "Weighing"
+                            }
+                        ], 
+                        "placeholder": "Select type"
+                    }, 
+                    "id": "1aeb686d-8cc1-11e7-b43c-021893e306d8", 
+                    "label": "Measurement Type", 
+                    "node_id": "1aeb6868-8cc1-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "1aeb6867-8cc1-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Dimension Type", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "9aaea1bc-de22-4aa5-b0dc-eaf0da68280d", 
+                                "id": "3e02e4ff-0464-4f5f-9ea5-68d3d6178307", 
+                                "sortorder": "", 
+                                "text": "Breadth"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "fc0e6a53-5091-4007-a877-0ff270223c4d", 
+                                "id": "506cdc68-9bbd-44cd-8691-132e1c5a913d", 
+                                "sortorder": "", 
+                                "text": "Depth"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "468aa267-c4af-40a3-8bfc-218ec4537161", 
+                                "id": "6bbe277f-35b5-476f-add8-963e56244670", 
+                                "sortorder": "", 
+                                "text": "Diameter"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "64c51e61-8dc9-4c61-9693-eff38c224a01", 
+                                "id": "0a3b97ba-0da1-42ca-97cf-60c3ef60f24f", 
+                                "sortorder": "", 
+                                "text": "Height"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "75bc8a59-060c-4a60-804e-1a90d58b75bc", 
+                                "id": "d7e1f4d3-ca08-4dad-bb02-42091d391e49", 
+                                "sortorder": "", 
+                                "text": "Length"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "704dc7bf-bc4e-4ee7-a073-691bb5ba549b", 
+                                "id": "a60d1e05-0dc8-46d1-b2b5-ccc8e8fd2935", 
+                                "sortorder": "", 
+                                "text": "Weight"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f6a5fb26-60f7-40d8-b8d1-4beca45a11df", 
+                                "id": "b341d648-38b3-44f8-ba29-2c91d8e41de2", 
+                                "sortorder": "", 
+                                "text": "Width"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "5645b4e1-377e-11e8-97ad-dca90488358a", 
+                    "label": "Dimension Type", 
+                    "node_id": "9770c457-8cc1-11e7-b43c-021893e306d8", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000013"
+                }, 
+                {
+                    "card_id": "1aeb6867-8cc1-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "defaultValue": "41722438-4e84-45ed-a3b5-f12e04dcfd5c", 
+                        "label": "Measurement Unit", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0e492db2-a026-4d6b-81f5-e409775be21f", 
+                                "id": "5509b823-7ace-4253-a3e5-0ebb5b976392", 
+                                "sortorder": "1", 
+                                "text": "inches"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "14923c78-a07a-478f-9d5b-d054de6d98e4", 
+                                "id": "b7611b55-55e2-4889-b923-687a89765c02", 
+                                "sortorder": "10", 
+                                "text": "meters"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ef64d304-a3c8-450a-a4cd-4462bbd00262", 
+                                "id": "928219af-a567-40c0-a9ad-8640c8afc800", 
+                                "sortorder": "11", 
+                                "text": "kilometers"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5a2383f4-10d8-41d8-8a2b-c66b4919b955", 
+                                "id": "d7a48024-8240-40b9-b8db-dce1067721fa", 
+                                "sortorder": "12", 
+                                "text": "grams"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "67ffe1c8-3399-481c-87c8-65a0b61bf868", 
+                                "id": "1064db18-7c59-4e02-9080-d1664bb3742e", 
+                                "sortorder": "13", 
+                                "text": "kilograms"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "73f04aea-6da6-4b06-aa2e-332126f3a240", 
+                                "id": "04705f94-7f76-4021-8490-12546cd323f9", 
+                                "sortorder": "2", 
+                                "text": "feet"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "00d2586d-0739-45f5-8812-993ae25a540e", 
+                                "id": "9eb07bbd-70d6-4929-8d0f-fdd2ffdbf616", 
+                                "sortorder": "3", 
+                                "text": "yards"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "bf2c2b08-9a80-4a01-b063-2cac9fb16eac", 
+                                "id": "b555a5f5-4ac5-43c9-b6f0-8582e06bd2b1", 
+                                "sortorder": "4", 
+                                "text": "miles"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "a65d1d4a-04b9-4ae5-9ee6-be8cba3da3f0", 
+                                "id": "fda6e884-8eae-4c13-8490-1ff30b6c8246", 
+                                "sortorder": "5", 
+                                "text": "ounces"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ce8628de-2c44-48ca-a2ee-40375a27c5d5", 
+                                "id": "b9214765-3e1f-4a25-a57e-dfb8af66ad6d", 
+                                "sortorder": "6", 
+                                "text": "pounds"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "701743e7-595b-4a8b-9576-3d46fa52b14c", 
+                                "id": "ccd30536-474c-496b-a617-538750c5a714", 
+                                "sortorder": "7", 
+                                "text": "tons"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "a048b03a-f279-454b-baa3-253891cf47bb", 
+                                "id": "bd87e569-754e-4738-ad22-887be1feb92b", 
+                                "sortorder": "8", 
+                                "text": "millimeters"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5884d60d-1b8c-40fc-99c8-055bca602fa7", 
+                                "id": "41722438-4e84-45ed-a3b5-f12e04dcfd5c", 
+                                "sortorder": "9", 
+                                "text": "centimeters"
+                            }
+                        ], 
+                        "placeholder": "Select unit"
+                    }, 
+                    "id": "1aeb686c-8cc1-11e7-b43c-021893e306d8", 
+                    "label": "Measurement Unit", 
+                    "node_id": "1aeb686b-8cc1-11e7-b43c-021893e306d8", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "1aeb686a-8cc1-11e7-b43c-021893e306d8", 
+                    "edgeid": "1aeb6872-8cc1-11e7-b43c-021893e306d8", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit", 
+                    "rangenode_id": "1aeb686b-8cc1-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "1aeb686a-8cc1-11e7-b43c-021893e306d8", 
+                    "edgeid": "9770c458-8cc1-11e7-b43c-021893e306d8", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "9770c457-8cc1-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "1aeb686a-8cc1-11e7-b43c-021893e306d8", 
+                    "edgeid": "1aeb6870-8cc1-11e7-b43c-021893e306d8", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value", 
+                    "rangenode_id": "1aeb6869-8cc1-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "edgeid": "1aeb6871-8cc1-11e7-b43c-021893e306d8", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "1aeb6868-8cc1-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "edgeid": "1aeb686f-8cc1-11e7-b43c-021893e306d8", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension", 
+                    "rangenode_id": "1aeb686a-8cc1-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-tachometer", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Dimensions", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "b402fa39-ceb9-40a0-9d90-6722a627640f"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension Type", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "nodeid": "9770c457-8cc1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension Measurement Unit", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "nodeid": "1aeb686b-8cc1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "number", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension Value", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "nodeid": "1aeb6869-8cc1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Measurement Event", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "nodeid": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "nodeid": "1aeb686a-8cc1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "06420105-2c0d-4a14-b4ee-da97252a9d41"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement Type", 
+                    "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                    "nodeid": "1aeb6868-8cc1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "1aeb6864-8cc1-11e7-b43c-021893e306d8", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Measurement Event", 
+                "nodegroup_id": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                "nodeid": "1aeb6865-8cc1-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"
+            }, 
+            "subtitle": "Used to record the various dimensions associated with a heritage asset. Particularly used for recording the size of vessels", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-apple-darwin14.5.0, compiled by Apple LLVM version 7.0.0 (clang-700.1.76), 64-bit", 
+        "git hash": "b0b5c9e7e 2018-03-30 17:05:45 -0700", 
+        "os": "Darwin", 
+        "os version": "17.4.0"
+    }
+}
