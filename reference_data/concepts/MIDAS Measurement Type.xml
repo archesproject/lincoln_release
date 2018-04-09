@@ -1,36 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/ed9ac592-bb5d-4be1-a557-00021bb1cd9c">
+  <skos:Concept rdf:about="http://www.archesproject.org/4053c431-8e69-49e5-82bd-e6821e58cc7a">
+    <skos:prefLabel xml:lang="en-US">{"id": "8ed4ec08-860e-4b99-a771-94b574a2ace2", "value": "Measuring"}</skos:prefLabel>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/477be6c6-5bd3-4885-bd0b-468da0452ad0">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/ed9ac592-bb5d-4be1-a557-00021bb1cd9c"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/297e8a9a-eafe-46d1-a671-05b1a920d8f6"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/4d2f3fa7-e205-4395-bd22-dad119c3a0c3"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/c5ce7ae0-17e7-4c9b-a879-7bdc14160c93"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/07fcd876-262b-4cfa-8fde-0a4704d8f898"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/4053c431-8e69-49e5-82bd-e6821e58cc7a"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "21a17204-23d3-4a95-bea3-6faac45f7b24", "value": "http://www.archesproject.org/477be6c6-5bd3-4885-bd0b-468da0452ad0"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/30c992ea-170d-4a06-a997-b43e6fd0d128"/>
         <dcterms:title xml:lang="en-US">{"id": "76b3036a-72fe-40a0-b9f9-8a093a9ee6f2", "value": "MIDAS Measurement Type"}</dcterms:title>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <skos:prefLabel xml:lang="en-US">{"id": "0c5b0d1b-fe77-4f11-9996-de8914ddf61c", "value": "Weight"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/4d2f3fa7-e205-4395-bd22-dad119c3a0c3">
-    <skos:prefLabel xml:lang="en-US">{"id": "7ba17222-8db7-4702-8a8f-293ee129bad2", "value": "Breadth"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/30c992ea-170d-4a06-a997-b43e6fd0d128">
     <skos:inScheme rdf:resource="http://www.archesproject.org/477be6c6-5bd3-4885-bd0b-468da0452ad0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/c5ce7ae0-17e7-4c9b-a879-7bdc14160c93">
-    <skos:prefLabel xml:lang="en-US">{"id": "bed6a037-5269-4e99-85a0-6206cde2da0a", "value": "Length"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/477be6c6-5bd3-4885-bd0b-468da0452ad0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/297e8a9a-eafe-46d1-a671-05b1a920d8f6">
-    <skos:prefLabel xml:lang="en-US">{"id": "10e30bd1-13b5-4aca-b294-f1f344eedbee", "value": "Height"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/477be6c6-5bd3-4885-bd0b-468da0452ad0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/07fcd876-262b-4cfa-8fde-0a4704d8f898">
-    <skos:prefLabel xml:lang="en-US">{"id": "49640546-c58d-411d-9cf7-1421095b4855", "value": "Depth"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/477be6c6-5bd3-4885-bd0b-468da0452ad0"/>
+    <skos:prefLabel xml:lang="en-US">{"id": "fa875081-f686-4e67-aa48-1c65e3d2a454", "value": "Weighing"}</skos:prefLabel>
   </skos:Concept>
 </rdf:RDF>
