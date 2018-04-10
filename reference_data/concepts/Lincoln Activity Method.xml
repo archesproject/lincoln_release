@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/6ad0b657-e810-4ba1-b187-6ba390250902">
+    <skos:prefLabel xml:lang="en-US">{"id": "632a3caa-40fd-4155-9b7d-bab2040b628f", "value": "Chance Find"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/601ae538-b452-463d-a59c-0421f4be229d">
+        <dcterms:title xml:lang="en-US">{"id": "9e5a8ee0-32ba-4ff5-81be-daddb2b8a006", "value": "Lincoln Activity Method"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/731eaefa-a3ba-43ab-98e7-38d3cb19c71f"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6ad0b657-e810-4ba1-b187-6ba390250902"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/731eaefa-a3ba-43ab-98e7-38d3cb19c71f">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/601ae538-b452-463d-a59c-0421f4be229d"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/78b84889-0c48-4274-99b5-c4345a7fcf20">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/601ae538-b452-463d-a59c-0421f4be229d"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "60e631a1-a578-41de-ac6b-0386bedde62f", "value": "Hand Excavation"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/88f5a7cf-aa13-4cd3-9fd7-b59efa331e84">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/601ae538-b452-463d-a59c-0421f4be229d"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "9a3bd953-1a6f-4e92-a8d0-a4a6706b8080", "value": "Mechanical Excavation"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en-US">{"id": "f517c24d-0fee-4f28-801f-796fa045b36d", "value": "Excavation"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
