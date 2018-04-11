@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/98dc238c-1f24-45d9-b858-eeb2150b8b07">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/66e282ec-4c9f-4973-94b8-c1f241da91b9">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/98dc238c-1f24-45d9-b858-eeb2150b8b07"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "a5a89619-c531-481d-87f9-613227028bfe", "value": "Unknown"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en-US">{"id": "b2d79e68-d57f-4149-802b-e8eb7e7f1765", "value": "Lincoln Resource Format"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>
