@@ -140,7 +140,7 @@
         {
             "arches_nodeid": "571effcc-31c5-11e8-a9b2-0242ac120005", 
             "arches_node_name": "From Date", 
-            "file_field_name": "From Date", 
+            "file_field_name": "Start_Date", 
             "data_type": "date", 
             "export": false
         }, 
@@ -265,7 +265,7 @@
         {
             "arches_nodeid": "571ef6c6-31c5-11e8-a9b2-0242ac120005", 
             "arches_node_name": "To Date", 
-            "file_field_name": "To Date", 
+            "file_field_name": "End_Date", 
             "data_type": "date", 
             "export": false
         }, 
