@@ -2,7 +2,7 @@ SET CLIENT_ENCODING TO UTF8;
 SET STANDARD_CONFORMING_STRINGS TO ON;
 BEGIN;
 INSERT INTO map_layers(maplayerid, name, layerdefinitions, isoverlay, icon, activated, addtomap)
-   VALUES (public.uuid_generate_v1mc(), 'Search Results', '[
+   VALUES (public.uuid_generate_v1mc(), 'Search Results Heat Map', '[
         {
            "id": "search-results-heat",
            "maxzoom": 17,
@@ -267,7 +267,7 @@ INSERT INTO map_layers(maplayerid, name, layerdefinitions, isoverlay, icon, acti
               ],
               [
                 500,
-                10000
+                5000
               ]
             ]
           },
