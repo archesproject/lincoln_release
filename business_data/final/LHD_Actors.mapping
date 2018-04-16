@@ -1,0 +1,237 @@
+{
+    "resource_model_id": "bd091c8a-2c59-11e8-89e4-0242ac120005", 
+    "resource_model_name": "Lincoln Actor - Person", 
+    "nodes": [
+        {
+            "arches_nodeid": "bd09b104-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Birthplace", 
+            "file_field_name": "Birthplace", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd0985ee-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Compiler Name", 
+            "file_field_name": "Compiler Name", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "a63befb4-31a4-11e8-a9b2-0242ac120005", 
+            "arches_node_name": "Contact Point Types", 
+            "file_field_name": "Contact Point Types", 
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "a63bed8e-31a4-11e8-a9b2-0242ac120005", 
+            "arches_node_name": "Contact point", 
+            "file_field_name": "Contact point", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09970a-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Date Type", 
+            "file_field_name": "Date Type", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09abe6-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Date of Birth", 
+            "file_field_name": "Date of Birth", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09939a-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Date of Compilation", 
+            "file_field_name": "Date of Compilation", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09a31c-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Date of Death", 
+            "file_field_name": "Date of Death", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd099c32-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Deathplace", 
+            "file_field_name": "Deathplace", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "ddcc4eda-310c-11e8-911f-0242ac120005", 
+            "arches_node_name": "Description Type", 
+            "file_field_name": "Description Type", 
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "ddcc4cb4-310c-11e8-911f-0242ac120005", 
+            "arches_node_name": "Description text", 
+            "file_field_name": "Description text", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd099034-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Epithet", 
+            "file_field_name": "Epithet", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "fb15ed07-3473-11e8-8ebd-dca90488358a", 
+            "arches_node_name": "External Cross Reference Notes", 
+            "file_field_name": "External Cross Reference Notes", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "fb15e997-3473-11e8-b565-dca90488358a", 
+            "arches_node_name": "External Cross Reference Number", 
+            "file_field_name": "External Cross Reference Number", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "fb15eb75-3473-11e8-98be-dca90488358a", 
+            "arches_node_name": "External Cross Reference Source", 
+            "file_field_name": "External Cross Reference Source", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09b2bc-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Father's Name", 
+            "file_field_name": "Father's Name", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd097ee6-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Forename", 
+            "file_field_name": "Forename", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09aa1a-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Initials", 
+            "file_field_name": "Person initial", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "ddcc50ce-310c-11e8-911f-0242ac120005", 
+            "arches_node_name": "Language", 
+            "file_field_name": "Language", 
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64fc0ff8-3793-11e8-bb41-dca90488358a", 
+            "arches_node_name": "Locality", 
+            "file_field_name": "Locality", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd0991ec-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Middle Name(s)", 
+            "file_field_name": "Middle Name(s)", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd09af56-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Mother's Name", 
+            "file_field_name": "Mother's Name", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd0972c0-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Name Type", 
+            "file_field_name": "Name Type", 
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64fc0d59-3793-11e8-8433-dca90488358a", 
+            "arches_node_name": "Number in Road or Street", 
+            "file_field_name": "Number in Road or Street", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd099a70-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Organization Name", 
+            "file_field_name": "Organization Name", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64fc1214-3793-11e8-a025-dca90488358a", 
+            "arches_node_name": "Postal Code", 
+            "file_field_name": "Postal Code", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "a539f4d2-310c-11e8-a9b2-0242ac120005", 
+            "arches_node_name": "Resource ID", 
+            "file_field_name": "Resource ID", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64fb0d61-3793-11e8-a75c-dca90488358a", 
+            "arches_node_name": "Road or Street Name", 
+            "file_field_name": "Road or Street Name", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd098cd8-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Role", 
+            "file_field_name": "Role", 
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd099552-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Surname", 
+            "file_field_name": "Person Last Name", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "bd0998c2-2c59-11e8-89e4-0242ac120005", 
+            "arches_node_name": "Title", 
+            "file_field_name": "Title", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64fc0723-3793-11e8-968a-dca90488358a", 
+            "arches_node_name": "Town or City", 
+            "file_field_name": "Town or City", 
+            "data_type": "string", 
+            "export": false
+        }
+    ]
+}

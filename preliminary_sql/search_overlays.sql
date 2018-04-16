@@ -4,71 +4,81 @@ BEGIN;
 INSERT INTO map_layers(maplayerid, name, layerdefinitions, isoverlay, icon, activated, addtomap)
    VALUES (public.uuid_generate_v1mc(), 'Search Results Heat Map', '[
         {
-           "id": "search-results-heat",
-           "maxzoom": 17,
-           "minzoom": 9,
-           "type": "heatmap",
-           "source": "search-results-hashes",
-           "paint": {
-               "heatmap-weight": [
-                   "interpolate", [
-                       "linear"
-                   ],
-                   [
-                       "get",
-                       "doc_count"
-                   ],
-                   0,
-                   0,
-                   6,
-                   1
-               ],
-               "heatmap-intensity": [
-                   "interpolate", [
-                       "linear"
-                   ],
-                   [
-                       "zoom"
-                   ],
-                   0,
-                   1,
-                   25,
-                   10
-               ],
-               "heatmap-color": [
-                   "interpolate", [
-                       "linear"
-                   ],
-                   [
-                       "heatmap-density"
-                   ],
-                   0,
-                   "rgba(33,102,172,0)",
-                   0.2,
-                   "rgb(103,169,207)",
-                   0.4,
-                   "rgb(209,229,240)",
-                   0.6,
-                   "rgb(253,219,199)",
-                   0.8,
-                   "rgb(239,138,98)",
-                   1,
-                   "rgb(178,24,43)"
-               ],
-               "heatmap-radius": [
-                   "interpolate", [
-                       "linear"
-                   ],
-                   [
-                       "zoom"
-                   ],
-                   0,
-                   2,
-                   25,
-                   75
-               ],
-               "heatmap-opacity": 0.6
-           }
+          "source": "search-results-hashes",
+          "paint": {
+            "heatmap-intensity": [
+              "interpolate",
+              [
+                "linear"
+              ],
+              [
+                "zoom"
+              ],
+              0,
+              1,
+              20,
+              5
+            ],
+            "heatmap-weight": [
+              "interpolate",
+              [
+                "linear"
+              ],
+              [
+                "get",
+                "doc_count"
+              ],
+              0,
+              0,
+              6,
+              1
+            ],
+            "heatmap-color": [
+              "interpolate",
+              [
+                "linear"
+              ],
+              [
+                "heatmap-density"
+              ],
+              0,
+              "#ffffb2",
+              0.2,
+              "#fed976",
+              0.4,
+              "#feb24c",
+              0.6,
+              "#fd8d3c",
+              0.8,
+              "#f03b20",
+              0.9,
+              "#fff",
+              1,
+              "#bd0026"
+            ],
+            "heatmap-radius": [
+              "interpolate",
+              [
+                "linear"
+              ],
+              [
+                "zoom"
+              ],
+              0,
+              2,
+              9,
+              40,
+              15,
+              90,
+              20,
+              190
+            ],
+            "heatmap-opacity": 0.6
+          },
+          "minzoom": 9,
+          "maxzoom": 17,
+          "type": "heatmap",
+          "id": "search-results-heat"
        }
    ]', TRUE, 'ion-search', TRUE, FALSE);
 
