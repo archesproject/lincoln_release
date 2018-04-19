@@ -1,0 +1,37 @@
+{
+	"type": "vector",
+	"layers": [{
+		"id": "lincoln_watermark",
+		"type": "fill",
+		"source": "lincoln_watermark",
+		"source-layer": "lincoln_watermark",
+		"layout": {
+			"visibility": "visible"
+		},
+		"paint": {
+			"fill-pattern": "tileserver/WML_Watermark_Transparent_Grayscale",
+			"fill-opacity": 0.5
+		}
+	}],
+	"config": {
+		"provider": {
+			"class": "TileStache.Goodies.VecTiles:Provider",
+			"kwargs": {
+				"dbinfo": {
+					"host": "localhost",
+					"user": "postgres",
+					"password": "postgis",
+					"database": "lincoln_release",
+					"port": "5432"
+				},
+				"simplify": 0.5,
+				"queries": [
+					"select id as __id__, st_asgeojson(geom) as geojson, st_transform(geom, 900913) as __geometry__ from lincoln_watermark"
+				]
+			}
+		},
+		"allowed origin": "*",
+		"compress": true,
+		"write cache": false
+	}
+}
