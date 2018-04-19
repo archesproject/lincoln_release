@@ -2,7 +2,7 @@
     "business_data": {
         "resources": [
             {
-                "tiles": [ 
+                "tiles": [
                     {
                         "data": {
                             "c5a2b530-fadd-11e6-b5f6-6c4008b05c4c": null, 
@@ -30,7 +30,7 @@
                     }, 
                     {
                         "data": {
-                            "0e8fff21-4148-11e7-ba78-c4b301baab9f": 20, 
+                            "0e8fff21-4148-11e7-ba78-c4b301baab9f": 19.0, 
                             "0e8ff9d1-4148-11e7-90ed-c4b301baab9f": 0, 
                             "0e90017a-4148-11e7-82ce-c4b301baab9f": 0
                         }, 
@@ -43,7 +43,7 @@
                     }, 
                     {
                         "data": {
-                            "0e9000b0-4148-11e7-bd19-c4b301baab9f": null, 
+                            "0e9000b0-4148-11e7-bd19-c4b301baab9f": "pk.eyJ1IjoibWlrZWNhbXBiZWxsIiwiYSI6ImNqYno2NXZyYTJ2NmQzMm50N2JiOGFmcnUifQ.L6xszre8fVSlgSzInS0bfA", 
                             "0e900254-4148-11e7-9902-c4b301baab9f": "mapbox://sprites/mapbox/basic-v9", 
                             "0e90031e-4148-11e7-a176-c4b301baab9f": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf"
                         }, 

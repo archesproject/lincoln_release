@@ -1,0 +1,15 @@
+{
+    "name": "Watermark",
+    "sources": {
+        "Watermark": {
+            "tiles": ["https://api.mapbox.com/styles/v1/dwuthrich/cjg45oad70aad2rpomriq8etv/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZHd1dGhyaWNoIiwiYSI6IlBrbU1KLXMifQ.qDM74ghXvE23g1TtdFDSHQ"],
+            "type": "raster",
+            "tileSize": 256
+        }
+    },
+    "layers": [{
+        "source": "Watermark",
+        "type": "raster",
+        "id": "Watermark"
+    }]
+}
