@@ -1,1 +1,0 @@
-python manage.py packages -o import_business_data -s ~dwuthrich/arches/packages/lincoln_release/business_data/manual_load/Lincoln_Heritage_Asset_Monument.csv -ow overwrite
