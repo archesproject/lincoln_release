@@ -1,7 +1,7 @@
 {
     "permitted_resource_relationships": [],
     "business_data_files": [
-        "A_LHD_Investigative_Activities_HM.csv",
+        "a_LHD_Investigative_Activities_HM.csv",
         "LHD_Actors.csv",
         "LHD_Archive_Sources.csv",
         "LHD_Bibliographic_Sources.csv",

@@ -1,0 +1,81 @@
+{
+	"type": "vector",
+	"name": "Monument Listed Buildings",
+	"layers": [
+	  {
+		"id": "monument_listed_building_points",
+		"type": "circle",
+      	"minzoom": 9,
+		"maxzoom": 21,
+		"source": "monument_listed_building",
+		"source-layer": "monument_listed_building",
+		"layout": {
+			"visibility": "visible"
+		},
+		"filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Point"
+			]
+		],
+		"paint": {
+			"circle-radius": {
+	            "stops": [
+	                [11, 2],
+	                [15, 6],
+	                [21, 10]
+	            ]
+	        }
+			,
+			"circle-color": "rgba(58, 171, 209,0.25)",
+			"circle-stroke-color": "rgb(58, 171, 209)",
+          	"circle-stroke-width": 1
+		}
+	  },
+	  {
+        "layout": {
+            "visibility": "visible"
+        },
+        "filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Polygon"
+			]
+		],
+        "paint": {
+            "fill-color": "rgba(58, 171, 209,0.25)",
+            "fill-outline-color": "rgba(58, 171, 209,0.95)"
+        },
+        "source": "monument_listed_building",
+        "minzoom": 16,
+        "source-layer": "monument_listed_building",
+        "type": "fill",
+        "id": "monument_listed_building_polygons"
+    }
+	],
+	"config": {
+		"provider": {
+			"class": "TileStache.Goodies.VecTiles:Provider",
+			"kwargs": {
+				"dbinfo": {
+					"host": "localhost",
+					"user": "postgres",
+					"password": "postgis",
+					"database": "lincoln_release",
+					"port": "5432"
+				},
+				"simplify": 0.5,
+				"queries": [
+					"select gid as __id__, name as __name__, geom as __geometry__ from monument_listed_building"
+				]
+			}
+		},
+		"allowed origin": "*",
+		"compress": true,
+		"write cache": false
+	}
+}
