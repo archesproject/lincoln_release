@@ -1,0 +1,69 @@
+{
+	"type": "vector",
+	"name": "Research Agenda Zone: High Midieval",
+	"layers": [
+	{
+		"id": "raz_high_midieval",
+		"type": "fill",
+		"source": "raz_high_midieval",
+		"source-layer": "raz_high_midieval",
+		"layout": {
+			"visibility": "visible"
+		},
+		"filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Polygon"
+			]
+		],
+		"paint": {
+			"fill-color": "rgba(222,134,134,0.15)"
+		}
+	},
+	{
+		"id": "resources-poly-outline-raz_high_midieval",
+		"type": "line",
+		"source": "raz_high_midieval",
+		"source-layer": "raz_high_midieval",
+		"layout": {
+			"visibility": "visible"
+		},
+		"filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Polygon"
+			]
+		],
+		"paint": {
+			"line-width": 1,
+			"line-color": "rgba(232,59,59,0.5)"
+		}
+	}
+	],
+	"config": {
+		"provider": {
+			"class": "TileStache.Goodies.VecTiles:Provider",
+			"kwargs": {
+				"dbinfo": {
+					"host": "localhost",
+					"user": "postgres",
+					"password": "postgis",
+					"database": "lincoln_release",
+					"port": "5432"
+				},
+				"simplify": 0.2,
+				"clip": false,
+				"queries": [
+					"select gid as __id__, name, '<div><strong>Roman Military Research Agenda Zone</strong></div><div>' || name || '</div>' as feature_info_content, st_transform(geom, 900913) as __geometry__ from raz_high_midieval"
+				]
+			}
+		},
+		"allowed origin": "*",
+		"compress": true,
+		"write cache": false
+	}
+}
