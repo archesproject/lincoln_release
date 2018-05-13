@@ -1,0 +1,69 @@
+{
+	"type": "vector",
+	"name": "Research Agenda Zone: Roman Military",
+	"layers": [
+	{
+		"id": "raz_roman_military",
+		"type": "fill",
+		"source": "raz_roman_military",
+		"source-layer": "raz_roman_military",
+		"layout": {
+			"visibility": "visible"
+		},
+		"filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Polygon"
+			]
+		],
+		"paint": {
+			"fill-color": "rgba(222,134,134,0.15)"
+		}
+	},
+	{
+		"id": "resources-poly-outline-raz_roman_military",
+		"type": "line",
+		"source": "raz_roman_military",
+		"source-layer": "raz_roman_military",
+		"layout": {
+			"visibility": "visible"
+		},
+		"filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Polygon"
+			]
+		],
+		"paint": {
+			"line-width": 1,
+			"line-color": "rgba(232,59,59,0.5)"
+		}
+	}
+	],
+	"config": {
+		"provider": {
+			"class": "TileStache.Goodies.VecTiles:Provider",
+			"kwargs": {
+				"dbinfo": {
+					"host": "localhost",
+					"user": "postgres",
+					"password": "postgis",
+					"database": "lincoln_release",
+					"port": "5432"
+				},
+				"simplify": 0.2,
+				"clip": false,
+				"queries": [
+					"select gid as __id__, name, '<div><strong>Roman Military Research Agenda Zone</strong><div>' || name || '<div>' as feature_info_content, st_transform(geom, 900913) as __geometry__ from raz_roman_military"
+				]
+			}
+		},
+		"allowed origin": "*",
+		"compress": true,
+		"write cache": false
+	}
+}
