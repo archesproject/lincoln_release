@@ -70,7 +70,7 @@
 				},
 				"simplify": 0.5,
 				"queries": [
-					"select gid as __id__, name as __name__, geom as __geometry__ from monument_listed_building"
+					"select gid as __id__,  gid as _featureid, name as __name__, geom as __geometry__ from monument_listed_building"
 				]
 			}
 		},
