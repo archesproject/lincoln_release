@@ -109,7 +109,7 @@
 				"simplify": 0.2,
 				"clip": false,
 				"queries": [
-					"select gid as __id__, gid as _featureid, name, '<div><strong>Roman Military Research Agenda Zone</strong></div><div>' || name || '</div>' as feature_info_content, st_transform(geom, 900913) as __geometry__ from raz_high_midieval"
+					"select gid as __id__, gid as _featureid, name, '<div><strong>High Midieval Research Agenda Zone</strong></div><div>' || name || '</div>' as feature_info_content, st_transform(geom, 900913) as __geometry__ from raz_high_midieval"
 				]
 			}
 		},

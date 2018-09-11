@@ -23,6 +23,31 @@
 		}
 	},
 	{
+		"id": "raz_roman_military-hover",
+		"type": "fill",
+		"source": "raz_roman_military",
+		"source-layer": "raz_roman_military",
+		"layout": {
+			"visibility": "visible"
+		},
+		"filter": [
+			"all",
+			[
+				"==",
+				"$type",
+				"Polygon"
+			],
+			[
+				"==",
+				"_featureid",
+				""
+			]
+		],
+		"paint": {
+			"fill-color": "rgba(22,4,134,0.25)"
+		}
+	},
+	{
 		"id": "resources-poly-outline-raz_roman_military",
 		"type": "line",
 		"source": "raz_roman_military",
@@ -58,7 +83,7 @@
 				"simplify": 0.2,
 				"clip": false,
 				"queries": [
-					"select gid as __id__, name, '<div><strong>Roman Military Research Agenda Zone</strong><div>' || name || '<div>' as feature_info_content, st_transform(geom, 900913) as __geometry__ from raz_roman_military"
+					"select gid as __id__, name, gid as _featureid, '<div><strong>Roman Military Research Agenda Zone</strong><div>' || name || '<div>' as feature_info_content, st_transform(geom, 900913) as __geometry__ from raz_roman_military"
 				]
 			}
 		},
